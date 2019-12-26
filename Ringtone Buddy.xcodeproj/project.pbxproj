@@ -12,7 +12,9 @@
 		4741849323B50799005F76E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4741849123B50799005F76E4 /* Main.storyboard */; };
 		4741849523B507A1005F76E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4741849423B507A1005F76E4 /* Assets.xcassets */; };
 		4741849823B507A1005F76E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4741849623B507A1005F76E4 /* LaunchScreen.storyboard */; };
-		474184A023B50BA0005F76E4 /* SoundListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741849F23B50BA0005F76E4 /* SoundListViewController.swift */; };
+		474184A223B526D5005F76E4 /* notification.caf in Resources */ = {isa = PBXBuildFile; fileRef = 474184A123B526D5005F76E4 /* notification.caf */; };
+		474184A423B52807005F76E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474184A323B52807005F76E4 /* ViewController.swift */; };
+		474184A823B54519005F76E4 /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 474184A723B54519005F76E4 /* notification.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,11 @@
 		4741849423B507A1005F76E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4741849723B507A1005F76E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4741849923B507A1005F76E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4741849F23B50BA0005F76E4 /* SoundListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListViewController.swift; sourceTree = "<group>"; };
+		474184A123B526D5005F76E4 /* notification.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = notification.caf; sourceTree = "<group>"; };
+		474184A323B52807005F76E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474184A523B532E9005F76E4 /* Ringtone Buddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ringtone Buddy.entitlements"; sourceTree = "<group>"; };
+		474184A623B5446A005F76E4 /* notification.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = notification.m4r; sourceTree = "<group>"; };
+		474184A723B54519005F76E4 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,17 @@
 		4741848A23B50799005F76E4 /* Ringtone Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				474184A523B532E9005F76E4 /* Ringtone Buddy.entitlements */,
 				4741848B23B50799005F76E4 /* AppDelegate.swift */,
 				4741848D23B50799005F76E4 /* SceneDelegate.swift */,
+				474184A323B52807005F76E4 /* ViewController.swift */,
 				4741849123B50799005F76E4 /* Main.storyboard */,
 				4741849423B507A1005F76E4 /* Assets.xcassets */,
+				474184A623B5446A005F76E4 /* notification.m4r */,
+				474184A723B54519005F76E4 /* notification.wav */,
+				474184A123B526D5005F76E4 /* notification.caf */,
 				4741849623B507A1005F76E4 /* LaunchScreen.storyboard */,
 				4741849923B507A1005F76E4 /* Info.plist */,
-				4741849F23B50BA0005F76E4 /* SoundListViewController.swift */,
 			);
 			path = "Ringtone Buddy";
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474184A223B526D5005F76E4 /* notification.caf in Resources */,
+				474184A823B54519005F76E4 /* notification.wav in Resources */,
 				4741849823B507A1005F76E4 /* LaunchScreen.storyboard in Resources */,
 				4741849523B507A1005F76E4 /* Assets.xcassets in Resources */,
 				4741849323B50799005F76E4 /* Main.storyboard in Resources */,
@@ -139,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4741848C23B50799005F76E4 /* AppDelegate.swift in Sources */,
-				474184A023B50BA0005F76E4 /* SoundListViewController.swift in Sources */,
+				474184A423B52807005F76E4 /* ViewController.swift in Sources */,
 				4741848E23B50799005F76E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ringtone Buddy/Ringtone Buddy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T49S3MZPMB;
 				INFOPLIST_FILE = "Ringtone Buddy/Info.plist";
@@ -302,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ringtone Buddy/Ringtone Buddy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T49S3MZPMB;
 				INFOPLIST_FILE = "Ringtone Buddy/Info.plist";
