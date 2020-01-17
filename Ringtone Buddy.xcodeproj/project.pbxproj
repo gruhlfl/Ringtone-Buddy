@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473B933C23D1FB96000665E6 /* wintry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 473B933B23D1FB96000665E6 /* wintry.wav */; };
+		473B933F23D204E0000665E6 /* 4-notes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 473B933E23D204E0000665E6 /* 4-notes.wav */; };
+		473B934123D2069B000665E6 /* viola-glissandi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 473B934023D2069B000665E6 /* viola-glissandi.wav */; };
 		4741848C23B50799005F76E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741848B23B50799005F76E4 /* AppDelegate.swift */; };
 		4741848E23B50799005F76E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741848D23B50799005F76E4 /* SceneDelegate.swift */; };
 		4741849323B50799005F76E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4741849123B50799005F76E4 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473B933B23D1FB96000665E6 /* wintry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wintry.wav; sourceTree = "<group>"; };
+		473B933E23D204E0000665E6 /* 4-notes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4-notes.wav"; sourceTree = "<group>"; };
+		473B934023D2069B000665E6 /* viola-glissandi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "viola-glissandi.wav"; sourceTree = "<group>"; };
 		4741848823B50799005F76E4 /* Ringtone Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ringtone Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4741848B23B50799005F76E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4741848D23B50799005F76E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 		4741848A23B50799005F76E4 /* Ringtone Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				473B933E23D204E0000665E6 /* 4-notes.wav */,
+				473B934023D2069B000665E6 /* viola-glissandi.wav */,
+				473B933B23D1FB96000665E6 /* wintry.wav */,
 				474184A523B532E9005F76E4 /* Ringtone Buddy.entitlements */,
 				4741848B23B50799005F76E4 /* AppDelegate.swift */,
 				4741848D23B50799005F76E4 /* SceneDelegate.swift */,
@@ -128,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4741849823B507A1005F76E4 /* LaunchScreen.storyboard in Resources */,
+				473B934123D2069B000665E6 /* viola-glissandi.wav in Resources */,
 				4741849523B507A1005F76E4 /* Assets.xcassets in Resources */,
 				4741849323B50799005F76E4 /* Main.storyboard in Resources */,
+				473B933F23D204E0000665E6 /* 4-notes.wav in Resources */,
+				473B933C23D1FB96000665E6 /* wintry.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
